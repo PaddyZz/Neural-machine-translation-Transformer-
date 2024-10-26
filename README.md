@@ -5,7 +5,7 @@ Neural Machine Translation (NMT) has revolutionized the field of language transl
 
 The Transformer architecture, introduced by Vaswani et al. in the seminal paper "Attention is All You Need," departs from traditional sequence-to-sequence models by eliminating recurrent layers in favor of self-attention mechanisms. This allows the model to capture long-range dependencies more effectively and facilitates parallelization during training, resulting in faster convergence and improved performance.
 
-In this repository, a step-by-step code guide based on a basic transformer architecture to building an NMT system is presented, starting from build tokenizer to model training and evaluation. A pretrain model and  Scripts are also provided for setting up tokenizer and translating new and personalized text from Portuguese to English, enabling users to quickly and experiment with the system. 
+In this repository, a code implementing based on a basic transformer architecture to building an NMT system is presented, starting from build tokenizer to model training and evaluation. A pretrain model and  Scripts are also provided for setting up tokenizer and translating new and personalized text from Portuguese to English, enabling users to quickly and experiment with the system. 
 
 ## Get Started
 ```python
