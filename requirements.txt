@@ -1,0 +1,7 @@
+tensorflow-text
+tensorflow
+tensorflow-datasets
+python-box
+pyYAML
+ensure
+protobuf
