@@ -1,0 +1,23 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  dataset_name: ted_hrlr_translate/pt_to_en
+  model_name: ted_hrlr_translate_pt_en_converter
+  model_URL: https://storage.googleapis.com/download.tensorflow.org/models
+  model_zip_file: artifacts/data_ingestion/data.zip
+  model_unzip_dir: artifacts/data_ingestion/unzip_dir
+
+pretrain_model:
+  root_dir: artifacts/pretrain_model
+
+train_model:
+  root_dir: artifacts/train_model
+
+evaluate_model:
+  root_dir: artifacts/evaluate_model
+  saved_model_dir: artifacts/saved_model
+  saved_json_dir: 'src/transformer/translated_text/translated_text.json'
+  tf_model_saved_dir: 'src/transformer/models/transformer'
+  keras_model_saved_dir: 'src/transformer/models/transformer.keras'
