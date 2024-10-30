@@ -85,7 +85,7 @@ docker build
 ```
 
 ## Blog
-blog_link
+[Model_Creating_Blog](https://paddyzz.github.io/projects/neural_machine_translation/)
 
 ## Reference
 [build a basic transformer architecture](https://www.tensorflow.org/text/tutorials/transformer)
